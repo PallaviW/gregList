@@ -1,0 +1,109 @@
+ body {
+    margin: 0; /* Tricky: override browser default */
+    padding: 80px;
+ 
+    font-family: "Roboto", sans-serif;
+   font-size: 16px; /* Set baseline font-size for whole page */
+ }
+.nav-bar{
+	position: absolute;
+	left:0;
+	right:0;
+	top: 0;
+	padding: 10px;
+	background-color: #EEEEEE;
+    border-bottom: 1px solid #DDDDDD;
+}
+ .top-nav{
+ 	position: absolute;
+	top: 10px;
+ right: 10px;
+
+}
+.rl-logo{
+	 display: inline-block;
+	    font-weight: 800;
+}
+ 
+  .rl-logo h1 {
+   font-size: 18px;
+    font-weight: normal;
+ cursor: pointer; /* restore visual cue that this is clickable */
+    margin: 0;
+    padding: 0;
+ }
+a{
+
+	text-decoration: none;
+	    color: purple;
+}
+
+.inner{
+	font-size: 18px;
+    padding: 0 6px;
+}
+
+.search-button {
+	font-size: 17px;
+    width: 37px;
+  height: 30px;
+    padding: 2px 6px 3px 6px;
+    background-color: white;
+  vertical-align: bottom;
+}
+.search-section input {
+
+  font-size: 16px; /* Must be set due to specificity weirdness of inputs */
+    font-weight: 500;
+  width: 400px;
+    height: 30px;
+    padding: 0 5px 0 8px;
+  }
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+
+.section-section .search-field,
+.section-section .search-button {
+	
+	border: 1px solid #DDDDDD;
+ 	border-radius: 3px;
+
+}
+
+.pages{
+	margin-top: 30px;
+	display: inline-block;
+	 font-size: 0;
+	 border: 1px solid #DDDDDD;
+	 border-radius: 3px;
+}
+
+.prev-link,.next-link,.page-rank{
+	
+ 	padding-left: 10px;
+    padding-right: 10px;
+	 display: inline-block;
+	 font-size: 16px;
+} 
+.page-rank{
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+}
+
+.list{
+	margin-top: 30px;
+}
+.date , .location{
+	color: grey;
+}
+.job-detail{
+	font-weight: 600;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
